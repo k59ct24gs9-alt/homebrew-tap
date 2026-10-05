@@ -1,13 +1,14 @@
 cask "studiolo" do
   version "1.44"
-  sha256 "1cf0b2ede16724ced1829ce5a43f3607d5a526cf7ef5d57c8d251c33a1e0c86f"
+  sha256 "e4a4226396042410539af3fce7b0a83146d985e472ed86939aba10d6b20ca572"
 
-  url "https://github.com/k59ct24gs9-alt/homebrew-tap/releases/download/v#{version}/Studiolo-#{version}.zip"
+  url "https://github.com/k59ct24gs9-alt/homebrew-tap/releases/download/v#{version}/Studiolo-#{version}.dmg"
   name "Studiolo"
   desc "Lern-Tracker für macOS"
   homepage "https://github.com/k59ct24gs9-alt/homebrew-tap"
 
   depends_on arch: :arm64
+  depends_on macos: ">= :tahoe"
 
   app "Studiolo.app"
 

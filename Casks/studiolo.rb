@@ -4,11 +4,11 @@ cask "studiolo" do
 
   url "https://github.com/k59ct24gs9-alt/homebrew-tap/releases/download/v#{version}/Studiolo-#{version}.dmg"
   name "Studiolo"
-  desc "Lern-Tracker für macOS"
+  desc "Lern-Tracker mit Timer, Statistiken und Widgets"
   homepage "https://github.com/k59ct24gs9-alt/homebrew-tap"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Studiolo.app"
 

@@ -1,6 +1,6 @@
 cask "studiolo" do
-  version "1.73.1"
-  sha256 "fc7f043ffab62c1e839adc3c168dc58cfa897a1e5f6e395d9ec1d511d7612788"
+  version "1.74"
+  sha256 "4e0f483791717b92536d621b75cda09a81522afc15d24971d6be6719703d18bb"
 
   url "https://github.com/k59ct24gs9-alt/homebrew-tap/releases/download/v#{version}/Studiolo-#{version}.dmg"
   name "Studiolo"
